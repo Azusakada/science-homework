@@ -1,0 +1,16 @@
+seed,path,rows,cols,method_nunique,seed_values,best_accuracy,best_method
+1,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_1.csv,121,7,121,1,0.7551622418879056,conv_fusion_net_0.10
+3,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_3.csv,121,7,121,3,0.7640117994100295,conv_fusion_net_0.35
+5,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_5.csv,121,7,121,5,0.7551622418879056,stack_lda
+66,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_66.csv,121,7,121,66,0.7315634218289085,conv_fusion_z_et_0.35
+789,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_789.csv,121,7,121,789,0.6902654867256637,conv_fusion_net_0.20
+1145,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_1145.csv,121,7,121,1145,0.7846607669616519,oof_rank_mean5
+2835396,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_2835396.csv,121,7,121,2835396,0.7610619469026548,conv_fusion_net_0.35
+18695,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_18695.csv,121,7,121,18695,0.7374631268436578,stack_log_c003
+7723,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_7723.csv,121,7,121,7723,0.7138643067846607,stack_log_c01
+114399,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_114399.csv,121,7,121,114399,0.7197640117994101,conv_fusion_z_log_0.20
+200,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_200.csv,121,7,121,200,0.7551622418879056,conv_fusion_net_0.20
+987654,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_987654.csv,121,7,121,987654,0.7315634218289085,conv_fusion_net_0.35
+2026,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_2026.csv,121,7,121,2026,0.7551622418879056,oof_rank_mean8
+2027,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_2027.csv,121,7,121,2027,0.7551622418879056,stack_log_c003
+2028,/root/autodl-tmp/认知科学导论/最优方案05301950/diagnostics/per_seed/seed_2028.csv,121,7,121,2028,0.7286135693215339,spec_fusion_spec649_log_c04_0.35
