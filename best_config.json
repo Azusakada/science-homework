@@ -1,0 +1,18 @@
+{
+  "shift_mode": "zeropad",
+  "max_time_shift": 10,
+  "noise_std": 0.01,
+  "time_mask_ratio": 0.06,
+  "channel_mask_ratio": 0.08,
+  "weight_decay": 0.0001,
+  "use_class_weight": true,
+  "label_smoothing": 0.05,
+  "dropout": 0.35,
+  "max_norm_spatial": null,
+  "epochs_star": 32,
+  "lr": 0.001,
+  "batch_size": 64,
+  "grad_clip": 1.0,
+  "seeds": [42, 1, 7, 2, 3, 11, 23, 101],
+  "tta_shifts": [-8, -4, 0, 4, 8]
+}

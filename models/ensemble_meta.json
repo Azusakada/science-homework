@@ -1,0 +1,60 @@
+{
+  "checkpoints": [
+    "model_seed42.pth",
+    "model_seed1.pth",
+    "model_seed7.pth",
+    "model_seed2.pth",
+    "model_seed3.pth",
+    "model_seed11.pth",
+    "model_seed23.pth",
+    "model_seed101.pth"
+  ],
+  "config": {
+    "shift_mode": "zeropad",
+    "max_time_shift": 10,
+    "noise_std": 0.01,
+    "time_mask_ratio": 0.06,
+    "channel_mask_ratio": 0.08,
+    "weight_decay": 0.0001,
+    "use_class_weight": true,
+    "label_smoothing": 0.05,
+    "dropout": 0.35,
+    "max_norm_spatial": null,
+    "epochs_star": 32,
+    "lr": 0.001,
+    "batch_size": 64,
+    "grad_clip": 1.0,
+    "seeds": [
+      42,
+      1,
+      7,
+      2,
+      3,
+      11,
+      23,
+      101
+    ],
+    "tta_shifts": [
+      -8,
+      -4,
+      0,
+      4,
+      8
+    ]
+  },
+  "threshold": 0.5,
+  "tta_shifts": [
+    -8,
+    -4,
+    0,
+    4,
+    8
+  ],
+  "oof_acc_at_0.5": 0.6493506493506493,
+  "oof_best_t": 0.5500000000000003,
+  "oof_best_acc": 0.6587957497048406,
+  "ensemble_oof_acc_at_0.5": 0.6599763872491146,
+  "ensemble_oof_best_t": 0.4700000000000001,
+  "ensemble_oof_best_acc": 0.6635182998819362,
+  "honest_cross_session_acc": 0.6599763872491146
+}
